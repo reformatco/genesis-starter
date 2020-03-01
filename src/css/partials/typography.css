@@ -1,118 +1,151 @@
+/* Typographical Elements
+--------------------------------------------- */
 
-/* purgecss start ignore */
-#tinymce {
-  @apply p-4;
-}
-
-#tinymce,
-.content {
-  @apply -mb-4;
-
-  *:first-of-type {
-    @apply mt-0;
-  }
-
-  h1 {
-
-  }
-
-  h2 {
-
-  }
-
-  h3 {
-
-  }
-
-  h4 {
-
-  }
-
-  h5 {
-
-  }
-
-  h6 {
-
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold uppercase tracking-wide mt-8 mb-4 font-sans leading-tight;
-  }
-
-  p {
-    @apply font-serif font-light mb-4;
-  }
-
-  ul {
-
-  }
-
+body {
 
 }
 
+a {
+	@apply text-accent;
+	text-decoration: underline;
 
-.jumbo-heading {
-  @apply font-sans font-light uppercase leading-tight;
-  font-size: responsive 32px 64px;
-  font-range: 640px 1280px;
+	&:hover {
+		text-decoration: none;
+	}
+
+	svg {
+
+	}
 }
 
-.jumbo-subheading {
-  @apply font-sans font-light uppercase leading-tight;
-  font-size: responsive 24px 48px;
-  font-range: 640px 1280px;
+strong {
+	font-weight: 700;
 }
 
-/* serif */
-
-.serif-xl {
-  @apply font-serif;
-  font-size: responsive 22.5px 30px;
-  font-range: 640px 1280px;
+ol,
+ul {
+	margin: 0;
+	padding: 0;
 }
 
-.serif-lg {
-  @apply font-serif;
-  font-size: responsive 18px 24px;
-  font-range: 640px 1280px;
+code,
+pre {
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+	font-size: 12px;
 }
 
-.serif-md {
-  @apply font-serif;
-  font-size: responsive 16px 21px;
-  font-range: 640px 1280px;
+code {
+	padding: 2px 4px;
+	white-space: nowrap;
 }
 
-.serif-sm {
-  @apply font-serif text-lg font-light;
+pre {
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	line-height: 18px;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
 }
 
-.serif-xs {
-  @apply font-serif font-light;
+pre code {
+	padding: 0;
+	color: inherit;
+	white-space: pre;
+	white-space: pre-wrap;
+	background-color: transparent;
+	border: 0;
 }
 
-/* sans */
+cite {
+	font-style: normal;
+}
 
-.head {
-  @apply font-bold uppercase tracking-wide;
+
+/* Paragraph
+--------------------------------------------- */
+
+p {
+	margin: 0 0 1rem;
+	padding: 0;
+
+  &.small,
+	&.has-small-font-size {
+    @apply text-sm;
+  }
+
+	&.medium,
+	&.has-medium-font-size {
+    @apply text-md;
+  }
+
+  &.large,
+	&.has-large-font-size {
+    @apply text-lg;
+  }
+
+  &.huge,
+	&.has-huge-font-size {
+    @apply text-xl;
+	}
+
+	&.has-normal-font-size {
+		@apply text-base;
+	}
+
+
+}
+
+/* Headings
+--------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply text-black font-sans;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 0 0 1rem;
+
+	a {
+		@apply text-black;
+
+		&:hover {
+			@apply text-accent;
+			text-decoration: none;
+		}
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
   @apply text-2xl;
 }
 
-.subhead {
-  @apply font-bold uppercase tracking-wide;
+h3 {
+  @apply text-xl;
 }
 
-.caption {
-  @apply text-sm;
-  @screen md {
-    @apply text-xs;
-  }
+h4 {
+  @apply text-lg;
 }
 
-.title-md {
-  @apply font-semibold text-xl leading-tight;
+h5 {
+  @apply text-md;
 }
 
-
-/* purgecss end ignore */
+h6 {
+  @apply text-base;
+}

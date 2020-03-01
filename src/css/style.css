@@ -1,12 +1,11 @@
+/* purgecss start ignore */
 @import-glob './partials/*.css';
 @import-glob './modules/*.css';
 @import-glob './pages/*.css';
 
-/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
 
 @tailwind utilities;
-
 /* custom utilities here */

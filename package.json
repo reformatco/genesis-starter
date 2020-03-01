@@ -47,14 +47,12 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
-    "@fancyapps/fancybox": "^3.5.7",
     "animate.css": "^3.7.2",
     "babel-polyfill": "^6.26.0",
-    "cash-dom": "^6.0.2",
-    "cookieconsent": "^3.1.1",
     "flickity": "^2.2.1",
     "flickity-fade": "^1.0.0",
     "flickity-imagesloaded": "^2.0.0",
+    "mobile-detect": "^1.4.4",
     "object-fit-images": "^3.2.4",
     "rucksack-css": "^1.0.2",
     "tailwindcss": "^1.2.0",

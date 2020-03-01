@@ -2,14 +2,14 @@
 /**
  * Theme customizations
  *
- * @package  Tim Groom Architects
+ * @package  Reformat Genesis Starter
  * @author  Ben Palmer
  * @link  https://reformat.co
  * @copyright  Copyright (c) 2020, Ben Palmer
  */
 
 add_action( 'genesis_setup', 'child_theme_setup', 15);
-load_child_theme_textdomain( 'timgroom' );
+load_child_theme_textdomain( 'refgensta' );
 
 /**
  * Theme setup.
@@ -22,8 +22,8 @@ load_child_theme_textdomain( 'timgroom' );
 function child_theme_setup() {
 
   // Constants
-  define( 'CHILD_THEME_NAME', 'Tim Groom Architects' );
-  define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/build/css/main.css' ) );
+  define( 'CHILD_THEME_NAME', 'Reformat Genesis Starter' );
+  define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/build/css/style.css' ) );
 
   // General
   include_once( get_stylesheet_directory() . '/inc/genesis-setup.php' );

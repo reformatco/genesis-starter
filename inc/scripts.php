@@ -8,7 +8,7 @@
 
 function custom_enqueue_scripts() {
 
-  wp_enqueue_script( 'main-js', get_stylesheet_directory_uri() . '/build/js/main.js', array( 'jquery' ), filemtime( get_stylesheet_directory() . '/build/js/main.js' ), true );
+  wp_enqueue_script( 'main-js', get_stylesheet_directory_uri() . '/build/js/bundle.js', array( 'jquery' ), filemtime( get_stylesheet_directory() . '/build/js/bundle.js' ), true );
 
   // Move jQuery to footer
   // Replace with CDN version

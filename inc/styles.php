@@ -13,7 +13,7 @@ function custom_enqueue_styles() {
   wp_deregister_style( 'editor-buttons' );
   wp_deregister_style( 'wp-block-library' );
 
-  wp_register_style( 'main-style', get_stylesheet_directory_uri() . '/build/css/main.css', array(), filemtime( get_stylesheet_directory() . '/build/css/main.css' ) );
+  wp_register_style( 'main-style', get_stylesheet_directory_uri() . '/build/css/style.css', array(), filemtime( get_stylesheet_directory() . '/build/css/style.css' ) );
   wp_enqueue_style( 'main-style' );
 }
 
