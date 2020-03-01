@@ -1,0 +1,26 @@
+/* If no support for wide/full just make it fill the screen */
+
+/* Gutenberg
+---------------------------------------------
+- All block changes to go in /block/*.css
+- If no support for wide/full disable below
+*/
+
+/* Main Column
+--------------------------------------------- */
+
+.wp-block {
+  /* max-width: 760px; */
+  max-width: none;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+  /* max-width: 1080px; */
+
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+  max-width: none;
+}

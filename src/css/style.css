@@ -2,6 +2,7 @@
 @import-glob './partials/*.css';
 @import-glob './modules/*.css';
 @import-glob './pages/*.css';
+@import-glob './blocks/*.css';
 
 @tailwind base;
 @tailwind components;

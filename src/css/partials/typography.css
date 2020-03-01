@@ -71,31 +71,6 @@ p {
 	margin: 0 0 1rem;
 	padding: 0;
 
-  &.small,
-	&.has-small-font-size {
-    @apply text-sm;
-  }
-
-	&.medium,
-	&.has-medium-font-size {
-    @apply text-md;
-  }
-
-  &.large,
-	&.has-large-font-size {
-    @apply text-lg;
-  }
-
-  &.huge,
-	&.has-huge-font-size {
-    @apply text-xl;
-	}
-
-	&.has-normal-font-size {
-		@apply text-base;
-	}
-
-
 }
 
 /* Headings

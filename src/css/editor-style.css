@@ -1,4 +1,8 @@
+/* Editor Styles
+--------------------------------------------- */
+
 @import './partials/typography.css';
+@import './partials/gutenberg.css';
 
 /* purgecss start ignore */
 @tailwind base;
