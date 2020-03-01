@@ -1,0 +1,77 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga" on;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+
+  /* 16px */
+  font-size:100%;
+  line-height:1.5;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing:border-box !important;
+}
+
+html, body {
+  @apply m-0 p-0 min-h-full font-sans;
+}
+
+img {
+  @apply block w-full;
+  height:auto;
+}
+
+.gs {
+  @apply py-8;
+  @screen md {
+    @apply py-12;
+  }
+  @screen xl {
+    @apply py-16;
+  }
+}
+
+.gs-x {
+  @apply px-8;
+  @screen md {
+    @apply px-12;
+  }
+  @screen xl {
+    @apply px-16;
+  }
+}
+
+.gs-y {
+  @apply py-8;
+  @screen md {
+    @apply py-12;
+  }
+  @screen xl {
+    @apply py-16;
+  }
+}
+
+.gs-x-min {
+  @apply px-4;
+  @screen md {
+    @apply px-6;
+  }
+  @screen xl {
+    @apply px-8;
+  }
+}
+
+.gs-y-min {
+  @apply py-4;
+  @screen md {
+    @apply py-6;
+  }
+  @screen xl {
+    @apply py-8;
+  }
+}

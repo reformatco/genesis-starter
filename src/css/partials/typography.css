@@ -1,0 +1,118 @@
+
+/* purgecss start ignore */
+#tinymce {
+  @apply p-4;
+}
+
+#tinymce,
+.content {
+  @apply -mb-4;
+
+  *:first-of-type {
+    @apply mt-0;
+  }
+
+  h1 {
+
+  }
+
+  h2 {
+
+  }
+
+  h3 {
+
+  }
+
+  h4 {
+
+  }
+
+  h5 {
+
+  }
+
+  h6 {
+
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold uppercase tracking-wide mt-8 mb-4 font-sans leading-tight;
+  }
+
+  p {
+    @apply font-serif font-light mb-4;
+  }
+
+  ul {
+
+  }
+
+
+}
+
+
+.jumbo-heading {
+  @apply font-sans font-light uppercase leading-tight;
+  font-size: responsive 32px 64px;
+  font-range: 640px 1280px;
+}
+
+.jumbo-subheading {
+  @apply font-sans font-light uppercase leading-tight;
+  font-size: responsive 24px 48px;
+  font-range: 640px 1280px;
+}
+
+/* serif */
+
+.serif-xl {
+  @apply font-serif;
+  font-size: responsive 22.5px 30px;
+  font-range: 640px 1280px;
+}
+
+.serif-lg {
+  @apply font-serif;
+  font-size: responsive 18px 24px;
+  font-range: 640px 1280px;
+}
+
+.serif-md {
+  @apply font-serif;
+  font-size: responsive 16px 21px;
+  font-range: 640px 1280px;
+}
+
+.serif-sm {
+  @apply font-serif text-lg font-light;
+}
+
+.serif-xs {
+  @apply font-serif font-light;
+}
+
+/* sans */
+
+.head {
+  @apply font-bold uppercase tracking-wide;
+  @apply text-2xl;
+}
+
+.subhead {
+  @apply font-bold uppercase tracking-wide;
+}
+
+.caption {
+  @apply text-sm;
+  @screen md {
+    @apply text-xs;
+  }
+}
+
+.title-md {
+  @apply font-semibold text-xl leading-tight;
+}
+
+
+/* purgecss end ignore */

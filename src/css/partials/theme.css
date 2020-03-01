@@ -1,0 +1,5 @@
+:root {
+  --section-primary: theme('colors.primary');
+  --section-accent: theme('colors.accent');
+  --section-base: theme('colors.black');
+}
