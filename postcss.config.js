@@ -9,6 +9,6 @@ module.exports = {
     'rucksack-css': {},
     'postcss-utilities': {},
     'precss': {},
-    // '@fullhuman/postcss-purgecss': process.env.NODE_ENV === 'production'
+    '@fullhuman/postcss-purgecss': {},
   }
 }

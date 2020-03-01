@@ -9,7 +9,8 @@
 **/
 
 
-// remove_action( 'genesis_after_header', 'genesis_do_nav' );
+remove_action( 'genesis_after_header', 'genesis_do_nav' );
+add_action( 'genesis_header_right', 'genesis_do_nav' );
 
 //* Disable the superfish script
 add_action( 'wp_enqueue_scripts', 'sp_disable_superfish' );

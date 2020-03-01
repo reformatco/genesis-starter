@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Using config variables in package.json",
   "author": "Reformat (reformat.co)",
-  "url": "domain.dev.cc",
+  "url": "timgroom.dev.cc",
   "srcPath": "./src/",
   "assetsPath": "./build/",
   "themePath": "/wp-content/themes/reformat-genesis-starter/",
