@@ -1,0 +1,35 @@
+// Structure
+$container: 1600px;
+$columns: 6;
+$gutter: 1rem;
+$outer_gutter: 2rem;
+
+// Fonts
+$serif: "Times", serif;
+$sans: "Public Sans", sans-serif;
+$base-font: $sans;
+
+$font-xs: 0.75rem;
+$font-sm: 0.85rem;
+$font-base: 1rem;
+$font-md: 1.2rem;
+$font-lg: 1.5rem;
+$font-xl: 2rem;
+$font-2xl: 2.25rem;
+$font-3xl: 3rem;
+
+// Colors
+$black:   #000000;
+$grey:    #666666;
+$accent:  #ff0000;
+
+// Breakpoints
+$sml: 640px;
+$med: 768px;
+$lrg: 1024px;
+$xl:  1440px;
+
+// Gutenberg
+// $content_width: 760px;
+$content_width: none;
+$title-font: $sans;

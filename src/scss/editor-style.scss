@@ -1,12 +1,13 @@
 /* Editor Styles
 --------------------------------------------- */
 
-@import './partials/typography.css';
-@import './partials/gutenberg.css';
+// Variables/Settings
+@import 'modules/variables';
 
-/* purgecss start ignore */
-@tailwind base;
-@tailwind components;
-/* purgecss end ignore */
+// Core
+@import 'partials/base';
+@import 'partials/typography';
+@import 'partials/gutenberg';
 
-@tailwind utilities;
+// Blocks
+// @import 'blocks/*';

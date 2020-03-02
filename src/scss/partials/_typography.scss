@@ -6,7 +6,7 @@ body {
 }
 
 a {
-	@apply text-accent;
+	color:$accent;
 	text-decoration: underline;
 
 	&:hover {
@@ -82,16 +82,17 @@ h3,
 h4,
 h5,
 h6 {
-	@apply text-black font-sans;
+  color:$black;
+	font-family:$sans;
 	font-weight: 400;
 	line-height: 1.2;
 	margin: 0 0 1rem;
 
 	a {
-		@apply text-black;
+		color:$black;
 
 		&:hover {
-			@apply text-accent;
+			color:$accent;
 			text-decoration: none;
 		}
 	}
@@ -102,25 +103,25 @@ h6 {
 }
 
 h1 {
-  @apply text-3xl;
+  font-size:$font-3xl;
 }
 
 h2 {
-  @apply text-2xl;
+  font-size:$font-2xl;
 }
 
 h3 {
-  @apply text-xl;
+  font-size:$font-xl;
 }
 
 h4 {
-  @apply text-lg;
+  font-size:$font-lg;
 }
 
 h5 {
-  @apply text-md;
+  font-size:$font-md;
 }
 
 h6 {
-  @apply text-base;
+  font-size:$font-base;
 }

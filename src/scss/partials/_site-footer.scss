@@ -20,7 +20,7 @@
 }
 
 .footer-widget-area {
-  @screen lg {
+  @media( min-width:$lrg ) {
     @apply flex;
   }
 }

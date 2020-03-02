@@ -27,37 +27,95 @@
 
 .wrap {
   max-width: $container;
-  @apply mx-auto;
+  margin:0 auto;
 }
 
 /* Content
 --------------------------------------------- */
 
-.content {
-  @screen lg {
-    float: left;
-    width: 65%;
+.content-sidebar-wrap {
+
+  @media( min-width:$lrg ) {
+    display: flex;
+    margin-left: -$gutter;
+    margin-right: -$gutter;
   }
+
+  .content {
+    @media( min-width:$lrg ) {
+      padding:0 $gutter;
+    }
+  }
+
+  .sidebar {
+    @media( min-width:$lrg ) {
+      padding:0 $gutter;
+    }
+  }
+
 }
 
-.sidebar-content .content {
-  @screen lg {
-    float: right;
-  }
+/* Layouts Classes
+--------------------------------------------- */
+
+.full-width-content {
+
 }
 
-.full-width-content .content {
-  @screen lg {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
+.sidebar-content {
+
+  .content {
+    @media( min-width:$lrg ) {
+      width: calc( 100% * 2/3 );
+      order:2;
+    }
   }
+
+  .sidebar {
+    @media( min-width:$lrg ) {
+      width: calc( 100% * 1/3 );
+      order:1;
+    }
+  }
+
+}
+
+.content-sidebar {
+
+  .content {
+    @media( min-width:$lrg ) {
+      width: calc( 100% * 2/3 );
+      order:1;
+    }
+  }
+
+  .sidebar {
+    @media( min-width:$lrg ) {
+      width: calc( 100% * 1/3 );
+      order:2;
+    }
+  }
+
+}
+
+// Very rare no point
+
+.content-sidebar-sidebar {
+
+}
+
+.sidebar-sidebar-content {
+
+}
+
+.sidebar-content-sidebar {
+
 }
 
 /* Column Classes
 --------------------------------------------- */
 
-@screen lg {
+@media( min-width:$lrg ) {
 
   .five-sixths,
   .four-sixths,
@@ -70,45 +128,44 @@
   .two-fourths,
   .two-sixths,
   .two-thirds {
-    float: left;
-    margin-left: 2.564102564102564%;
+    padding:0 $gutter;
   }
 
   .one-half,
   .three-sixths,
   .two-fourths {
-    width: 48.717948717948715%;
+    width: calc( 100% * 1/4 );
   }
 
   .one-third,
   .two-sixths {
-    width: 31.623931623931625%;
+    width: calc( 100% * 1/3 );
   }
 
   .four-sixths,
   .two-thirds {
-    width: 65.81196581196582%;
+    width: calc( 100% * 2/3 );
   }
 
   .one-fourth {
-    width: 23.076923076923077%;
+    width: calc( 100% * 1/4 );
   }
 
   .three-fourths {
-    width: 74.35897435897436%;
+    width: calc( 100% * 3/4 );
   }
 
   .one-sixth {
-    width: 14.52991452991453%;
+    width: calc( 100% * 1/6 );
   }
 
   .five-sixths {
-    width: 82.90598290598291%;
+    width: calc( 100% * 5/6 );
   }
 
   .first {
-    clear: both;
-    margin-left: 0;
+
   }
 
 }
+

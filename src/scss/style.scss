@@ -1,4 +1,47 @@
+// Variables/Settings
+@import 'modules/variables';
 
-@import 'partials/variables';
+// Core
+@import 'vendor/normalize';
 @import 'partials/base';
 @import 'partials/typography';
+@import 'partials/a11y';
+
+// Layout
+@import 'partials/genesis';
+@import 'partials/layout';
+@import 'partials/content';
+@import 'partials/site-header';
+@import 'partials/site-footer';
+@import 'partials/navigation';
+@import 'partials/widgets';
+
+// Blocks
+@import 'blocks/block-quote';
+@import 'blocks/buttons';
+@import 'blocks/calendar';
+@import 'blocks/colours';
+@import 'blocks/columns';
+@import 'blocks/comments';
+@import 'blocks/cover';
+@import 'blocks/embed';
+@import 'blocks/file';
+@import 'blocks/gallery';
+@import 'blocks/image';
+@import 'blocks/latest-posts';
+@import 'blocks/media-text';
+@import 'blocks/rss';
+@import 'blocks/search';
+@import 'blocks/separator';
+@import 'blocks/social-links';
+@import 'blocks/table';
+@import 'blocks/text-columns';
+@import 'blocks/typography';
+@import 'blocks/video';
+
+// Misc
+@import 'partials/plugins';
+@import 'partials/transitions';
+
+// Print
+@import 'partials/print';

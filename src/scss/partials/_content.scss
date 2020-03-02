@@ -68,7 +68,7 @@ p.entry-meta {
 /* After Entry
 --------------------------------------------- */
 
-@screen lg {
+@media( min-width:$lrg ) {
 
   .after-entry {
     padding: 40px 60px;
@@ -84,7 +84,7 @@ p.entry-meta {
 /* Entry Misc.
 	--------------------------------------------- */
 
-@screen lg {
+@media( min-width:$lrg ) {
 
   .after-entry,
 	.archive-description,

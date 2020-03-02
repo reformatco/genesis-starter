@@ -11,7 +11,7 @@
 
 .wp-block {
   /* max-width: 760px; */
-  max-width: none;
+  max-width: $content_width;
 }
 
 /* Width of "wide" blocks */
@@ -23,4 +23,8 @@
 /* Width of "full-wide" blocks */
 .wp-block[data-align="full"] {
   max-width: none;
+}
+
+.editor-post-title__block .editor-post-title__input {
+  font-family:$title-font;
 }

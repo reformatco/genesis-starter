@@ -10,12 +10,12 @@
     display: block;
     float: none;
     position: relative;
-    @screen lg {
+    @media( min-width:$lrg ) {
       display: inline-block;
     }
     &:focus,
     &:hover {
-      @screen lg {
+      @media( min-width:$lrg ) {
         position: relative;
       }
     }
@@ -44,7 +44,7 @@
 }
 
 .genesis-nav-menu > .menu-bold > a {
-  @screen lg {
+  @media( min-width:$lrg ) {
     font-weight: 700;
   }
 }
@@ -86,7 +86,7 @@
 .genesis-nav-menu {
   & > .menu-highlight {
     & > a {
-      @screen lg {
+      @media( min-width:$lrg ) {
         background-color: #333;
         border-radius: 3px;
         color: #fff;
@@ -103,7 +103,7 @@
   }
 }
 
-@screen lg {
+@media( min-width:$lrg ) {
 
   .genesis-nav-menu .sub-menu,
 	.genesis-nav-menu .sub-menu a {
@@ -220,7 +220,7 @@
 	transform: rotate(180deg);
 }
 
-@screen lg {
+@media( min-width:$lrg ) {
 
   .genesis-responsive-menu {
 		display: block;
@@ -245,7 +245,7 @@
 	width: 100%;
 }
 
-@screen lg {
+@media( min-width:$lrg ) {
   .nav-primary {
 		clear: none;
 		float: right;

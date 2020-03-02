@@ -28,6 +28,7 @@ function child_theme_setup() {
   // General
   include_once( get_stylesheet_directory() . '/inc/genesis-setup.php' );
   include_once( get_stylesheet_directory() . '/inc/cleanup.php' );
+  include_once( get_stylesheet_directory() . '/inc/gutenberg.php' );
 
   // Theme
   include_once( get_stylesheet_directory() . '/inc/navbar.php' );
@@ -35,13 +36,5 @@ function child_theme_setup() {
   include_once( get_stylesheet_directory() . '/inc/sidebars.php' );
   include_once( get_stylesheet_directory() . '/inc/styles.php' );
   include_once( get_stylesheet_directory() . '/inc/scripts.php' );
-
-
-  // Editor Styles
-  add_theme_support( 'editor-styles' );
-  add_editor_style( 'build/css/editor-style.css' );
-
-  // Responsive Embeds
-  add_theme_support( 'responsive-embeds' );
 
 }
