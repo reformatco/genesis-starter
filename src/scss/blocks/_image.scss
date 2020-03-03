@@ -56,8 +56,12 @@
 }
 
 .wp-block-image figcaption {
-	margin-top: 0.5em;
-	margin-bottom: 1em;
+	// margin-top: 0.5em;
+  // margin-bottom: 1em;
+  text-align:left;
+  font-weight:normal;
+  padding: $gutter 0 0 0;
+  margin: 0 0 $gutter 0;
 }
 
 .is-style-circle-mask img {

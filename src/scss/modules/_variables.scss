@@ -1,8 +1,8 @@
 // Structure
 $container: 1600px;
 $columns: 6;
-$gutter: 1rem;
-$outer_gutter: 2rem;
+$gutter: 10px; // 1rem
+$outer_gutter: 20px; // 2rem
 
 // Fonts
 $serif: "Times", serif;
@@ -22,6 +22,7 @@ $font-3xl: 3rem;
 $black:   #000000;
 $grey:    #666666;
 $accent:  #ff0000;
+$site_background: #ffffff;
 
 // Breakpoints
 $sml: 640px;

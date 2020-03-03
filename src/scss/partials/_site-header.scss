@@ -2,8 +2,7 @@
 ---------------------------------------------------------------------------- */
 
 .site-header {
-	background-color: #fff;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+	background-color: $site_background;
   padding: 0 $outer_gutter;
   @media( min-width:$lrg ) {
     position: -webkit-sticky;
@@ -14,7 +13,7 @@
 }
 
 .admin-bar .site-header {
-  @screen md {
+  @media( min-width: $med ) {
     top: 32px;
   }
 }

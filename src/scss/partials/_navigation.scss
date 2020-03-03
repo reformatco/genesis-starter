@@ -2,7 +2,10 @@
 ---------------------------------------------------------------------------- */
 
 .genesis-nav-menu {
-	clear: both;
+
+  @media( min-width:$lrg ) {
+    display:flex;
+  }
 	line-height: 1;
   width: 100%;
 

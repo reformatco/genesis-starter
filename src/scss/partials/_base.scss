@@ -19,10 +19,12 @@ html {
   box-sizing:border-box !important;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  min-height:100%;
+:not(.wp-admin){
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height:100%;
+  }
 }
 
 img {

@@ -1,8 +1,8 @@
 wp.domReady( () => {
-	wp.blocks.unregisterBlockStyle(
-		'core/button',
-		[ 'default', 'outline', 'squared', 'fill' ]
-	);
+    wp.blocks.unregisterBlockStyle(
+      'core/button',
+      [ 'default', 'outline', 'squared', 'fill' ]
+    );
 
 	wp.blocks.registerBlockStyle(
 		'core/button',
@@ -27,6 +27,6 @@ wp.domReady( () => {
 	wp.blocks.unregisterBlockStyle(
 		'core/quote',
 		[ 'default', 'large' ]
-	);
+  );
 
 } );
